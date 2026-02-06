@@ -1,0 +1,11 @@
+{
+  "name": "imadejptr-site",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "start": "npx http-server . -p 8080 -a 0.0.0.0"
+  }
+}

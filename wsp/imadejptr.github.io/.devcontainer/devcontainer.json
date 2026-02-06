@@ -1,0 +1,12 @@
+{
+  "name": "imadejptr Codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+  "workspaceFolder": "/workspaces/fuzzy-meme/imadejptr.github.io",
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install",
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": [],
+  "remoteUser": "vscode"
+}
